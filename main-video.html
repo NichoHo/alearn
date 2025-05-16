@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alearn - Interactive Video Learning</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main-video.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    Al<span>earn</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="main-video.html" class="active">Videos</a>
+                    <a href="about-us.html">About Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="video-container">
+        <div class="container">
+            <div class="video-title">
+                <h2>How AI Makes Decisions</h2>
+            </div>
+            
+            <div class="video-section">
+                <div class="video-player">
+                    <video src="assets/test.mp4" controls>
+                </div>
+                
+                <div class="choices-section">
+                    <h3>Choose Your Learning Path</h3>
+                    <p>Select an option below based on your perspective about AI decision-making:</p>
+                    
+                    <a href="branch-a.html" class="choice-card">
+                        <div class="choice-icon">
+                            <i class="bx bx-check-circle"></i>
+                        </div>
+                        <div class="choice-content">
+                            <h3>AI Already Makes Decisions Like Humans</h3>
+                            <p>Explore how AI's decisions are already integrated into our daily lives.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="branch-b.html" class="choice-card">
+                        <div class="choice-icon">
+                            <i class="bx bx-x-circle"></i>
+                        </div>
+                        <div class="choice-content">
+                            <h3>AI Still Cannot Make Decisions Like Humans</h3>
+                            <p>Discover why AI lacks the common sense and understanding that humans possess.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="branch-c.html" class="choice-card">
+                        <div class="choice-icon">
+                            <i class="bx bx-slider"></i>
+                        </div>
+                        <div class="choice-content">
+                            <h3>AI Can Make Decisions, But Needs Human Guidance</h3>
+                            <p>Learn how AI and humans can work together to make better decisions.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="video-description">
+                <h3>About This Learning Experience</h3>
+                <p>Ever wondered if AI truly thinks like you do? In this eye-opening journey, we'll uncover the fascinating truth behind AI's ability to mimic human behavior from the recommendations shaping your daily choices to groundbreaking medical diagnoses.</p>
+                <p>Through stunning visualizations and real-world examples, you'll discover how AI learns from massive datasets to make decisions that feel eerily human. Whether you're AI-skeptical or AI-curious, you'll gain crystal-clear insights into how these systems actually work, debunking common myths along the way.</p>
+                <p>Join us to understand your AI-powered future and learn when to trust (or question) artificial intelligence!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <h2 class="logo">AI<span>earn</span></h2>
+                <p>Your gateway to mastering AI through interactive, ethical, and future-ready education.</p>
+            </div>
+
+            <div class="footer-section footer-nav">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="main-video.html">Videos</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-contact">
+                <h3>Contact</h3>
+                <p>Email: support@alearn.com</p>
+                <p>Phone: +62 123 4567 8901</p>
+                <div class="social-icons">
+                    <a href="#"><i class="bx bxl-youtube"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Alearn 2025, All rights reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.play-button').addEventListener('click', function() {
+            alert('Video playback would start here in the production version');
+        });
+    </script>
+</body>
+</html>
